@@ -84,8 +84,6 @@ PB_TEST_DEPS=<装了 react/jsdom 的 node_modules> node test/panel.mjs   # 配�
 
 以 `link:` 方式装进 profile 时，改完重启 DSH 就生效，不用重新安装。
 
-写插件时踩的坑记在 [docs/DSH插件开发笔记.md](docs/DSH插件开发笔记.md)。
-
 ## 发布
 
 `scripts/release.sh` 从 `package.json` 读版本号，打 `v<version>` 标签、推送，再创建 GitHub Release。
