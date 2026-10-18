@@ -1,0 +1,5 @@
+# 组合包（bundle）patch 层：profile 列出本包时，往插件树里插一行。
+# 行 id 用于覆盖/禁用，与包名无关；name 必须是包名，Node 才解析得到代码。
+- insert:
+    - id: dsh-prompt-boost
+      name: "dsh-prompt-boost"
